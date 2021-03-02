@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -27,13 +27,16 @@ public class FindInArray {
 		}
 		System.out.println("Smallest in array is "+result);
 		
-		result = nums[0];
+		int result2 = nums[0];
 		
 		// Find largest in an array
 		for (int i = 1; i < nums.length; i++) {
 			// complete the code
+			if (nums[i] > result2) {
+				result2 = nums[i];
+			}
 		}
-		System.out.println("Largest in array is "+result);
+		System.out.println("Largest in array is "+ result2);
 
 
 	}

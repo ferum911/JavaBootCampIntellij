@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -14,6 +14,9 @@ public class NumToWordsUsingMethod {
 		 */
 		public static void main(String[] args) {
 			// complete the code to print text value of 8, 9 and 10
+			printMyWord(8);
+			printMyWord(9);
+			printMyWord(10);
 
 		}
 
@@ -43,8 +46,8 @@ public class NumToWordsUsingMethod {
 			default:
 				numText = "NUMBER " + i;
 			}
-			System.out.println(numText);
-			
+			  System.out.println(numText);
+
 		}
 
 

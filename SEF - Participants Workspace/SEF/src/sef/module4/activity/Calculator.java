@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module4.activity;
+package activity;
 
 /**
  * @author 
@@ -9,8 +9,9 @@ package sef.module4.activity;
  */
 public class Calculator {
 
-	
+	//Accessible only for this class
 	private String calculatorType;
+	//Can be accessed  from other classes (constant variable)
 	public static final String CALC_TYPE_BASIC = "Basic";
 	
 	// Default constructor
