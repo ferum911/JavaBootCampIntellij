@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/activity/AddWholeNum.java" />
       <file url="file://$PROJECT_DIR$/activity/Calculator.java" />
       <file url="file://$PROJECT_DIR$/activity/FindInArray.java" />
       <file url="file://$PROJECT_DIR$/activity/MultiplicationTable.java" />
@@ -16,6 +15,7 @@
       <file url="file://$PROJECT_DIR$/activity/VariableAssignmentActivity.java" />
       <file url="file://$PROJECT_DIR$/activity/OperatorActivity.java" />
       <file url="file://$PROJECT_DIR$/activity/FindLargest.java" />
+      <file url="file://$PROJECT_DIR$/activity/NumToWords.java" />
     </excludeFromCompile>
   </component>
 </project>

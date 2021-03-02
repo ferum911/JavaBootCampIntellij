@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -18,10 +18,11 @@ public class AddWholeNum {
 			total = total + i;
 		}
 		System.out.println("Addition of Whole Numbers from 1 to 50 = " + total);
-		
+
 		total = 0;
 		
 		// complete the code. write for loop for i
+		for (int i = 51; i <=100; i++){
 		total = total + i;
 		}
 		System.out.println("Addition of Whole Numbers from 50 to 100 = " + total);
