@@ -6,7 +6,6 @@
       <file url="file://$PROJECT_DIR$/activity/Calculator.java" />
       <file url="file://$PROJECT_DIR$/activity/FindInArray.java" />
       <file url="file://$PROJECT_DIR$/activity/MultiplicationTable.java" />
-      <file url="file://$PROJECT_DIR$/activity/NumToWords.java" />
       <file url="file://$PROJECT_DIR$/activity/NumToWordsUsingMethod.java" />
       <file url="file://$PROJECT_DIR$/sample/CastingSample.java" />
       <file url="file://$PROJECT_DIR$/sample/MainSample.java" />
@@ -16,6 +15,7 @@
       <file url="file://$PROJECT_DIR$/activity/PrintNumWithWhile.java" />
       <file url="file://$PROJECT_DIR$/activity/VariableAssignmentActivity.java" />
       <file url="file://$PROJECT_DIR$/activity/OperatorActivity.java" />
+      <file url="file://$PROJECT_DIR$/activity/FindLargest.java" />
     </excludeFromCompile>
   </component>
 </project>

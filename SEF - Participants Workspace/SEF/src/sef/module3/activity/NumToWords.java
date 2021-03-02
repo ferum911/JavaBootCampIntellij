@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -31,6 +31,12 @@ public class NumToWords {
 			numText = "FOUR";break;
 		case 5:
 			numText = "FIVE";break;
+		case 6:
+			numText = "SIX";break;
+		case 7:
+			numText = "SEVEN";break;
+		case 8:
+			numText = "EIGHT";break;
 		// complete the code.
 		default:
 			numText = "NUMBER " + i;
