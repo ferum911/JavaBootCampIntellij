@@ -14,7 +14,7 @@ public class VariableAssignmentActivity {
 	 */
 	public static void main(String[] args) {
 		//Defining variable
-		int x = 33;
+		int x;
 
 		//Changing variable
 		x = 44;
