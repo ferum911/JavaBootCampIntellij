@@ -1,10 +1,10 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
- * @author 
+ * @author Arnis Kolocans
  *
  */
 public class VariableAssignmentActivity {
@@ -13,10 +13,13 @@ public class VariableAssignmentActivity {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		// 1- Declare a variable of type int and assign it default value.
-		// 2- Update the value 
-		// 3- Print updated value to the console
+		//Defining variable
+		int x = 33;
+
+		//Changing variable
+		x = 44;
+		//Printing out variable
+		System.out.println(x);
 
 	}
 
