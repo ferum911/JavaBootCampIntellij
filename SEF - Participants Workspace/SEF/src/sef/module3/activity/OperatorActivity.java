@@ -1,4 +1,4 @@
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -22,11 +22,13 @@ public class OperatorActivity {
 		System.out.println("Difference = " + result);
 		
 		// Add numbers
-		
-		
+		int a = i + 7;
+		int b = j + 5;
+		int result2 = a + b;
 		// Print result
-		
-		
+		System.out.println("Sum = " + result2);
+
+
 	}
 
 }
