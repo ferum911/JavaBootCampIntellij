@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 /* Person_I class is the superclass 
  * Attributes : name, age
@@ -26,7 +26,7 @@ public class Person_I {
 	public String getName() {
 		return name;
 	}
-	
+
 	// setter for String name
 	public void setName(String name) {
 		this.name = name;
