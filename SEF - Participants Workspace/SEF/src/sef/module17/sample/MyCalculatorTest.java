@@ -1,6 +1,9 @@
-package sef.module17.sample;
+package sample;
 // Complete Code
+
 import junit.framework.TestCase;
+import org.junit.Test;
+
 
 public class MyCalculatorTest extends TestCase {
 
@@ -15,7 +18,7 @@ public class MyCalculatorTest extends TestCase {
 	protected void tearDown() throws Exception {
 		super.tearDown();
 	}
-
+	@Test
 	public void testGetSum() {
 		
 		int a = 5;

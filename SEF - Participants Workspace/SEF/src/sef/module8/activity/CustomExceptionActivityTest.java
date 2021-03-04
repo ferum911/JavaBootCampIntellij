@@ -35,8 +35,7 @@ public class CustomExceptionActivityTest {
             throw new CustomExceptionActivity();
         }
 
-
-
+@Test
     }
 }
 //2 - Write code to check if parameter name contains a value which is found in validUsers array and change flag's value accordingl
