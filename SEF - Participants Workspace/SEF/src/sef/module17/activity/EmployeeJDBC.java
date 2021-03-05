@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class EmployeeJDBC {
 	Employee emp = new Employee();
@@ -13,7 +14,7 @@ public class EmployeeJDBC {
 	public static void main(String[] args) {
 		Connection con = createConnection();
 		Employee em1 = new Employee();
-		ArrayList<Employee> em2 = new ArrayList<Employee>();
+		List<String> em2 = new ArrayList<>();
 		em1 = findEmployeeById(1);
 		System.out.println("By id: " + em1.getFirstName());
 
@@ -21,7 +22,7 @@ public class EmployeeJDBC {
 		System.out.println("By Salary: " + em1.getFirstName());
 
 		em2 = findEmployeesByName("Green");
-		for(int i = 0; i < em2.size(); i++ ) {
+		for(int i = 0; i < em2.length; i++ ) {
 			System.out.println("By Salary: " + em2.get(i));
 		}
 	}
@@ -120,10 +121,11 @@ public class EmployeeJDBC {
 
 		return emp;
 	}
-	public static ArrayList findEmployeesByName(String name)
+	public static List<String> findEmployeesByName(String name)
 	{
 		Connection con = createConnection();
-		ArrayList list=null;
+		List<String> list = new ArrayList<String>();
+
 
 		try {
 		// 1 - Create a PreparedStatement with a query
